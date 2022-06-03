@@ -12,6 +12,12 @@ h1 {
     font-size: 3.5rem;
     line-height: 1.5;
 }
+h3 {
+    font-family: "montserrat-bold";
+}
+p {
+    color: #8f8f8f;
+}
 
 .container-fluid {
     padding: 3% 15%;
@@ -44,4 +50,21 @@ h1 {
 .title-img {
     width: 60%;
     transform: rotate(25deg);
+}
+
+/* features section  */
+#features {
+    padding: 7% 15%;
+}
+.features-item {
+    text-align: center;
+    padding: 5%;
+}
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: gray;
+    /* color: #ff4c68; */
 }
