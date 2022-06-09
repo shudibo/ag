@@ -60,6 +60,13 @@ p {
     /* z-index: 0; */
 }
 
+@media (max-width: 760px) {
+    .title-img {
+        transform: rotate(0);
+        position: static;
+    }
+}
+
 /* features section  */
 #features {
     padding: 7% 15%;
