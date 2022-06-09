@@ -55,11 +55,16 @@ p {
 .title-img {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    /* z-index: 0; */
 }
 
 /* features section  */
 #features {
     padding: 7% 15%;
+    background-color: gainsboro;
+    position: relative;
+    z-index: 1;
 }
 .features-item {
     text-align: center;
@@ -101,5 +106,15 @@ p {
 #press img {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/* Pricing Sections */
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
 }
 
